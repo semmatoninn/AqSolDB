@@ -47,3 +47,13 @@ There was one paper that worked on same dataset with GNN but achieved 0.81 R2, a
 Pretrain graph embeddings on larger molecular datasets (Husskonen, SoluProtMut) before finetuning.
 Perform cross-validation to assess robustness.
 
+# References
+
+1. Ulrich, N.; Voigt, K.; Kudria, A.; Böhme, A.; Ebert, R.-U. Prediction of the Water Solubility by a Graph Convolutional-Based Neural Network on a Highly Curated Dataset. J. Cheminform. 2025, 17 (1), 55. DOI: 10.1186/s13321-025-01000-9.
+
+2. Francoeur, P. G.; Koes, D. R. SolTranNet–A Machine Learning Tool for Fast Aqueous Solubility Prediction. J. Chem. Inf. Model. 2021, 61 (6), 2530–2536. DOI: 10.1021/acs.jcim.1c00331.
+
+3. Sorkun, M. C.; Khetan, A.; Er, S. AqSolDB, a Curated Reference Set of Aqueous Solubility and 2D Descriptors for a Diverse Set of Compounds. Sci. Data 2019, 6 (1), 143. DOI: 10.1038/s41597-019-0151-1.
+
+4. Ajami, D.; Oeckler, O.; Simon, A.; et al. Title Related to Aqueous Solubility Mechanisms or Predictive Challenges (identifying often cited solubility data discussion). Eur. J. Pharm. Biopharm. 2019, DOI: 10.1016/j.ejpb.2019.02.007.
+
