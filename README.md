@@ -1,7 +1,7 @@
 # Predicting Aquaeous Drug Solubility
 
 # Problem
-Poor aqueous solubility is a major challenge in pharmaceutical research, with a large proportion of new drug candidates exhibiting low water solubility that limits absorption and bioavailability. According to reviews in the pharmaceutical literature, up to 70–90% of drug candidates in the development pipeline are poorly water-soluble, significantly reducing their drug-likeness and complicating formulation efforts. Poor solubility often leads to inadequate drug absorption in vivo, necessitating higher doses or formulation changes, and is a major contributor to costly failures in drug development. Predicting solubility early enables scientists to select appropriate drug delivery methods and formulation strategies that improve bioavailability and increase the likelihood of clinical success.
+Poor aqueous solubility is a major challenge in pharmaceutical research, with a large proportion of new drug candidates exhibiting low water solubility that limits absorption and bioavailability. According to reviews in the pharmaceutical literature, up to 70–90% of drug candidates in the development pipeline are poorly water-soluble, significantly reducing their drug-likeness and complicating formulation efforts. Poor solubility often leads to inadequate drug absorption in vivo, necessitating higher doses or formulation changes, and is a major contributor to costly failures in drug development. Predicting solubility early enables scientists to select appropriate drug delivery methods and formulation strategies that improve bioavailability and increase the likelihood of clinical success.[1][2][3]
 
 # Dataset Description: AqSolDB
 AqSolDB is a curated dataset of experimentally measured aqueous solubility values (logS) for diverse organic compounds collected from multiple literature sources. It is commonly used as a benchmark for molecular property prediction because solubility is a fundamental physicochemical property that strongly influences drug absorption, formulation strategy, and bioavailability.
@@ -42,9 +42,9 @@ For this dataset size and split strategy, XGBoost slightly outperforms or matche
 GNN performance outperformed SolTraNet 
 
 # Future Work
-Incorporate richer molecular descriptors in XGBoost. There were papers that used 196 physicochemical descriptors to achieve R2 of 0.92 to predict solubility. 
-There was one paper that worked on same dataset with GNN but achieved 0.81 R2, at the same time, they removed and re-curated dataset 2 times by removing logS >0.5 and cut off compounds with molecular weight >900
-Pretrain graph embeddings on larger molecular datasets (Husskonen, SoluProtMut) before finetuning.
+For XGBoost, richer descriptors might be the key, there was a paper that used 196 physicochemical descriptors to achieve R2 of 0.92 to predict solubility[2]
+There was one paper that worked on same dataset with GNN but achieved 0.81 R2, at the same time, they removed and re-curated dataset 2 times by removing logS >0.5 and cut off compounds with molecular weight >900. [1]
+Pretrain graph embeddings on larger molecular datasets (Husskonen, SoluProtMut) before finetuning.[2]
 Perform cross-validation to assess robustness.
 
 # References
