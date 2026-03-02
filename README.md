@@ -1,10 +1,12 @@
 # Predicting Aquaeous Drug Solubility
 
 # Problem
-Poor aqueous solubility is a major challenge in pharmaceutical research, with a large proportion of new drug candidates exhibiting low water solubility that limits absorption and bioavailability. According to reviews in the pharmaceutical literature, up to 70–90% of drug candidates in the development pipeline are poorly water-soluble, significantly reducing their drug-likeness and complicating formulation efforts. Poor solubility often leads to inadequate drug absorption in vivo, necessitating higher doses or formulation changes, and is a major contributor to costly failures in drug development. Predicting solubility early enables scientists to select appropriate drug delivery methods and formulation strategies that improve bioavailability and increase the likelihood of clinical success.[1][2][3]
+Poor aqueous solubility poses a major challenge in pharmaceutical research. According to reviews in the pharmaceutical literature, up to 70–90% of drug candidates in the development pipeline are poorly water soluble, limits absorption and bioavailability, significantly reducing their drug-likeness and complicating formulation efforts. [3][4]
+
+Poor solubility often leads to inadequate drug absorption in vivo, needing higher doses or formulation changes, and is a major contributor to costly failures in clinical trial. Predicting solubility early enables scientists to select appropriate drug delivery methods and formulation strategies that improve bioavailability and increase the likelihood of clinical success.[1][2][3]
 
 # Dataset Description: AqSolDB
-AqSolDB is a curated dataset of experimentally measured aqueous solubility values (logS) for diverse organic compounds collected from multiple literature sources. It is commonly used as a benchmark for molecular property prediction because solubility is a fundamental physicochemical property that strongly influences drug absorption, formulation strategy, and bioavailability.
+AqSolDB is a curated dataset of experimentally measured aqueous solubility values (logS) for diverse organic compounds collected from multiple literature sources. [5]
 
 # Model 
 
@@ -56,4 +58,6 @@ Perform cross-validation to assess robustness.
 3. Sorkun, M. C.; Khetan, A.; Er, S. AqSolDB, a Curated Reference Set of Aqueous Solubility and 2D Descriptors for a Diverse Set of Compounds. Sci. Data 2019, 6 (1), 143. DOI: 10.1038/s41597-019-0151-1.
 
 4. Ajami, D.; Oeckler, O.; Simon, A.; et al. Title Related to Aqueous Solubility Mechanisms or Predictive Challenges (identifying often cited solubility data discussion). Eur. J. Pharm. Biopharm. 2019, DOI: 10.1016/j.ejpb.2019.02.007.
+
+5. Sorkun, M. C., Khetan, A., & Er, S. (2019). AqSolDB, a curated reference set of aqueous solubility and 2D descriptors for a diverse set of compounds. Scientific Data, 6(1), 143. DOI: 10.1038/s41597-019-0151-1
 
