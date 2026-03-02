@@ -46,8 +46,7 @@ GNN performance outperformed SolTraNet
 # Future Work
 For XGBoost, richer descriptors might be the key, there was a paper that used 196 physicochemical descriptors to achieve R2 of 0.92 to predict solubility[2]
 There was one paper that worked on same dataset with GNN but achieved 0.81 R2, at the same time, they removed and re-curated dataset 2 times by removing logS >0.5 and cut off compounds with molecular weight >900. [1]
-Pretrain graph embeddings on larger molecular datasets (Husskonen, SoluProtMut) before finetuning.[2]
-Perform cross-validation to assess robustness.
+Other option would be pretrain graph embeddings on larger molecular datasets (including Husskonen, SoluProtMut) before finetuning [2] and perform cross-validation to assess robustness.
 
 # References
 
